@@ -8,5 +8,5 @@ In your "Vagrantfile" add the following file<br />
 <br />
 Once this is done  you can run `vagrant.exe reload` to realod the "Vagrantfile".<br />
 Once the VM is ready again you can run the following command to SSH:<br />
-`ssh -p 2222 -i <private_key> <username>@$(ip route |grep default |cut -f 3 -d ' ')`<br />
+`ssh -p 2222 -i <private_key> <username>@$(hostname).local`<br />
 <br />
